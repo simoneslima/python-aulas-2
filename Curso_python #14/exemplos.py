@@ -23,11 +23,44 @@ while valor != 0:
     valor = int(input('Digite um valor: '))
 print('Fim')'''
 
-r = 'S'
+'''r = 'S'
 while r == 'S':
     n = int(input('Digite um valor: '))
     r = str(input('Quer continuar? [S/N]')).upper()
-print('Fim')
+print('Fim')'''
+
+# usando o FOR
+'''for c in range(1,5):
+    numero = int(input('Digite um valor: '))
+print('FIM')'''
+
+# ou poderia fazer o mesmo com while acima eu estabeleci um limite. 
+# aqui sera enquanto a pessoa nao digita o numero 0 não finaliza.
+'''numero = 1
+while numero != 0:
+    numero = int(input('Digite um valor: '))
+print('Fim!')'''
+
+# outro exemplo:
+'''resposta = 'SIM'
+while resposta == 'SIM':
+    numero = int(input('Digite um valor:  '))
+    resposta = str(input('Quer continuar [SIM/NÃO] ')).upper()
+print('Fim!')'''
+
+n = 1
+par = impar = 0
+while n != 0:
+    n = int(input('Digite um numero: '))
+    if n != 0:
+        if n % 2 == 0:
+            par += 1
+        else:
+            impar += 1
+print('Você digitou {} pares e {} numeros impares.'.format(par, impar))
+
+
+
 
 
     
