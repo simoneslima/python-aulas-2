@@ -1,3 +1,4 @@
+from time import sleep
 n1 = int(input('\033[7;0;34mDigite o primeiro numero: \033[m'))
 n2 = int(input('\033[7;0;34mDigite o segundo numero: \033[m'))
 opcao = 0
@@ -30,5 +31,6 @@ while opcao != 5:
     else:
         print('\033[7;31mOpção Invalida! Tente Novamente!\033[m')
     print('=-='* 10)
-        
+    sleep(2)
+    
 print('Fim do Programa!')
