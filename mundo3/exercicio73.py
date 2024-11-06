@@ -1,0 +1,13 @@
+bandas = ('Queen', 'Carpenters', 'Led Zeppelin', 'Rush', 'Shocking Blue', 'Hollies', 'Kinks', 'Stylistics', 'Zombies', 'Creedence Clearwater Revival', 'Jackson 5', 'Byrds', 'Golden Earring', 'Earth, Wind & Fire', 'Earth & Fire', 'The Who', 'The Mamas and the Papas' )
+print('\033[7;0;30m*=*\033[m' *20)
+for b in bandas:
+    print(b)
+print('\033[7;0;30m*=*\033[m' *20)
+print(f'As 5 primeiras bandas são {bandas[0:5]}.')
+print('\033[7;0;31m*=*\033[m' *20)
+print(f'As Ultimas Bandas da nossa lista não menos importantes, claro! São {bandas[-4:]}.')
+print('\033[7;0;31m*=*\033[m' *20)
+print(f'Bandas em Ordem alfabética {sorted(bandas)}.')
+print('\033[7;0;31m*=*\033[m' *20)
+print(f'Os Zombies está na {bandas.index("Zombies")}° posição.')
+print('\033[7;0;31m*=*\033[m' *20)
