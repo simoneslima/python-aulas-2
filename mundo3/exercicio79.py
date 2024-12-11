@@ -1,4 +1,4 @@
-numeros = []
+numeros = list()
 while True:
     num = int(input('Digite um valor:'))
     if num not in numeros:
@@ -7,7 +7,7 @@ while True:
     else:
         print('Valor duplicado! Não será adicionado!')
         
-    continuar = input("Quer continuar? (S/N): ").upper()
+    continuar = str(input("Quer continuar? (S/N): ")).upper()
     if continuar == 'N':
         break
 print('*=*'*30)
